@@ -20,7 +20,7 @@ CREATE TABLE "pti_pill"
 "altezza_pl" double , -- altezza della sorgente dasl piano stradale
 "cod_armatura" integer , -- numero foto che rappresenta la tipologia dell'armatura
 "note" TEXT
-)
+);
 
 --aggiungo colonna geometry
-SELECT AddGeometryColumn ('pti_pill','geom',3003,'POINT','XY');
+SELECT AddGeometryColumn ('pti_pill','geom',3003,'POINT','XY');
